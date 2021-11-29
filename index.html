@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet"   text="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <title>portfolio</title>
+        <link rel='stylesheet' herf="style.css">
+</head>
+<body>
+    <section class="header" id="Home">
+        <nav>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.jpeg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <p>Hello</p>
+                <h1>I'm Shaik Mohammed Amaan zubair,</h1>
+                <p>Web designer,Student.</p>
+                <a href="https://www.instagram.com/amaanzubair5/?hl=en" target="blank">Instagram   |</a>
+                <a href="https://github.com/SMD-Amaan" target="blank">Github      |</a>
+            </div>
+        </section>
+        <!----About me----->
+        <section class="Aboutme"id="Aboutme">
+           <h1>About Me</h1>
+           <p>Hello , My name is Shaik Mohammed Amaan Zubair. I am basically from Andhra Pradesh , from district called kadapa. I am currently pursuing my bachelor's degree in VIT-AP.I am currently working for CSI chapter as a web designer .With little Technical skills,I began my career at this college due these Student chapters I learnt many skills like HTML,CSS,Python,C etc. My hobbies are drawing and listening music. I bascically have patience and hardworking nature.</p>
+           <div class="row">
+               <div class="course-col">
+                   <h3>Schooling</h3>
+                   <p>I completed my 10th standard at Narayana E.M high school <br>with 9.5 cgpa</p>
+               </div>
+               <div class="course-col">
+                   <h3>Intermediate</h3>
+                   <p>I completed my intermediate(MPC) at Narayana college<br>with 93.9% aggregate</p>
+               </div>
+           </div>
+        </section>
+
+
+        <!-- ------skill----- -->
+
+
+        <section id="Skills">
+            <div class="skill">
+                <h1>My skills</h1>
+
+                <li><h3>html-70%</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li><h3>CSS-65%</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li><h3>Python-95%</h3>
+                    <span class="bar"><span class="Python"></span></span>
+                </li>
+                <li><h3>C-100%</h3>
+                    <span class="bar"><span class="C"></span></span>
+                </li>
+            </div>
+        </section>
+         <!-------Get in touch--------->
+        <section id="contact">
+          <div class="container">
+              <h1>contact</h1>
+                <div class="col-md-6 contact-info">
+                    <div class="follow"><b>Address:</b>Nagarajapet,kadapa,Andhra pradesh,India,516001</div>
+                    <div class="follow"><b>Phone no:</b>+91 7981332369</div>
+                    <div class="follow"><b>Email:</b>amaanzubair5@gmail.com</div>    
+              </div>
+          </div> 
+        </section>
+          <div>
+              <button type="button">Home</button>
+              <button type="button">contact</button>
+          </div>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-250px";
+            }
+        </script>
+    </body>
+</html>
+         
